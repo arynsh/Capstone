@@ -1,68 +1,88 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Wildlife Tracker
+#### A app that allows users to log wildlife sightings into a database and view all sightings in their general area.
 
-## Available Scripts
+#### By **Sharon Lee**
+## 🎉 Contents
 
-In the project directory, you can run:
+* [Description](#description)
+* [Specifications](#specifications)
+* [Instructions](#instructions)
+* [Contact](#contact)
+* [License](#license)
 
-### `npm start`
+### Description
+This is a app that allows users to create logs of wildlife sightings (species, time, date, description, image) and add those logs to a map of all wildlife sightings in their area. The user will be able to choose to view either all logs near their gps location or input an address. The MVP (minimum viable product) consists of the previous mentioned functionality. Further functionality will consist of
+ 1) being able to filter results (on map) based on species, rating, date, and species+location 
+ 2) creating an API for other developers to use the data 
+ 3) adding an upvote/downvote to logs 
+ 4) adding a rating system for species(endangered, dangerous, or hurt animals). 
+ 5) user authentication will be implemented to allow users to create accounts/sign in/sign out and view their log history.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Specifications
+| Spec | Input | Output |
+| :-------------     | :------------ | :------------- |
+| Homepage | User accesses:http://localhost:8000/| Homepage w/map displaying their gps location |
+| **User clicks create new sighting| http://localhost:8080/#/NewLog | User can fill out a form on the page |
+| **User submits form for new sighting | http://localhost:8080/#/NewLog | Form is submitted into database and page shows "thank you for creating a new submission" |
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Component Structure
+```
+App (state -> NewLogControl -> NewLogForm)
+└── Header          
+└── Switch
+    └── Home
+    └── About Us
+    └── Log List
+    |     └── Log (state)
+    └── NewLogControl (state)
+    |    └── Confirmation Question    
+    |    └── NewLogForm
+    └── Error 404
+```
 
-### `npm test`
+### Instructions
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository: https://github.com/arynsh/react-wildlife-tracker
+```
+$ git clone https://github.com/arynsh/react-wildlife-tracker
+```
+2. Navigate into the repository
+```
+$ cd react-wildlife-tracker
+```
+3. In the command line, type in "npm install" or "npm i" then "npm run start".
+```
+$ npm i
+```
+```
+$ npm run start
+```
+4. On your browser, open http://localhost:8000/#
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Known Bugs
+* No known bugs at this time.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 📋 Technologies Requirements
+ You may use Windows, macOS, or Linux as your development operating system, though building and running apps may be limited.
+ Tools used:  
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [React](https://reactjs.org/)
+* [Node.js](https://nodejs.org/en/)
+* [Visual Studio](https://www.visualstudiocommunity.com)
+* [GitHub](https://www.github.com)
+* HTML
+* CSS
+ 
+### Support and Contact details
+| Author | GitHub | Email |
+|--------|:------:|:-----:|
+Sharon Lee| [arynsh](https://github.com/arynsh) |  [sharonlee714@gmail.com](mailto:sharonlee714@gmail.com) 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_Please contact with questions and/or comments._
 
-### `npm run eject`
+### License
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+*This software is licensed under the MIT license*
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright (c) 2020 **Sharon Lee**
