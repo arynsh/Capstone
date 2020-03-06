@@ -9,7 +9,7 @@ var linkStyleRight =
     // textDecoration: 'none',
     float: 'right',
     fontSize: '16px',
-    fontFamily: 'didot'
+    fontFamily: 'monospace no. 20'
   }
 
 function Navigation() {
