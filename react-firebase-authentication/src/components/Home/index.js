@@ -1,7 +1,12 @@
 import React from 'react';
-const Home = () => (
-  <div>
-    <h1>Home</h1>
-  </div>
-);
+import Landing from '../Landing';
+
+
+function Home() { 
+  return (
+    <div>
+      <Landing/>
+    </div>
+  );
+}
 export default Home;

@@ -4,6 +4,7 @@ var LandingStyling =
   {
     textAlign: 'center',
     fontFamily: 'didot',
+    height: '200px',
     padding: '54px'
   }
 
@@ -19,16 +20,18 @@ var LandingStyling =
 //   padding: '34px',
 //   color: 'ghostwhite'
 // }
-// var linkStyle= {
-//   backgroundColor: 'white',
-//   color: 'black',
-//   border: '2px solid #fed3c3',
-//   padding: '10px 20px',
-//   textAlign: 'center',
-//   margin: '12px',
-//   textDecoration: 'none',
-//   display: 'inline-block'
-// }
+var buttonStyle= {
+  backgroundColor: 'orange',
+  color: 'black',
+  border: '2px solid orange',
+  padding: '10px 20px',
+  textAlign: 'center',
+  margin: '12px',
+  textDecoration: 'none',
+  borderRadius: '20px',
+  display: 'inline-block'
+  
+}
 
 
 function Landing() {
@@ -39,7 +42,7 @@ function Landing() {
             WildLife Tracker
           </h1>
           <p>Spotted an eagle? A river otter? Mountain Lion? Log and track your wildlife sightings and see what others' have spotted in your area!</p>
-          <button>Create a new sighting</button>
+          <button style={buttonStyle}>CREATE A NEW SIGHTING</button>
         </div>
        {/* <div style={boxStyling}>
                 <h1 class="title">
