@@ -47,13 +47,13 @@ App (state -> NewLogControl -> NewLogForm)
 
 ### Instructions
 
-1. Clone this repository: https://github.com/arynsh/react-wildlife-tracker
+1. Clone this repository: https://github.com/arynsh/Capstone
 ```
-$ git clone https://github.com/arynsh/react-wildlife-tracker
+$ git clone https://github.com/arynsh/Capstone
 ```
 2. Navigate into the repository
 ```
-$ cd react-wildlife-tracker
+$ cd Capstone
 ```
 3. In the command line, type in "npm install" or "npm i" then "npm run start".
 ```
