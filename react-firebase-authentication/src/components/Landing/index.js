@@ -1,11 +1,12 @@
 import React from 'react';
-import backgroundspots from '../assets/images/backgroundspots.jpg';
+import backgroundspots from '../../assets/images/backgroundspots.jpg';
 
 var LandingStyling = 
   {
     textAlign: 'center',
     fontFamily: 'monospace no. 20',
-    height: '200px',
+    color: 'ghostwhite',
+    height: '270px',
     padding: '54px'
   }
 
@@ -38,12 +39,13 @@ var buttonStyle= {
 function Landing() {
     return (
       <div style={LandingStyling}>
+        
+        <div>
         <style global jsx>{`
           body {
             background: url('${backgroundspots}');
           }
         `}</style>
-        <div>
           <h1>
             WildLife Tracker
           </h1>
