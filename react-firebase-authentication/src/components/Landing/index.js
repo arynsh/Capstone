@@ -7,7 +7,8 @@ var LandingStyling =
     fontFamily: 'monospace no. 20',
     color: 'black',
     height: '270px',
-    padding: '54px'
+    marginBottom: '72px',
+    padding: '120px'
   }
 
 // var boxStyling =
@@ -24,11 +25,13 @@ var LandingStyling =
 // }
 var buttonStyle= {
   backgroundColor: 'orange',
-  color: 'black',
+  color: 'ghostwhite',
+  fontSize: '18px',
+  fontWeight: 'bold',
   border: '2px solid orange',
-  padding: '10px 20px',
+  padding: '18px 45px',
   textAlign: 'center',
-  margin: '12px',
+  margin: '35px',
   textDecoration: 'none',
   borderRadius: '20px',
   display: 'inline-block'
@@ -46,8 +49,8 @@ function Landing() {
             background: url('${backgroundspots}');
           }
         `}</style> */}
-          <img src={titleimage} height="200px" width="470px"/>
-          
+          <img src={titleimage} height="230px" width="540px"/>
+    
           <p>Spotted an eagle? A river otter? Mountain Lion? Log and track your wildlife sightings and see what others' have spotted in your area!</p>
           <button style={buttonStyle}>CREATE A NEW SIGHTING</button>
         </div>

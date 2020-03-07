@@ -1,4 +1,5 @@
 import React from 'react';
+import mapstatic from '../../assets/images/mapstatic.jpg';
 
 var MapStyling = 
   {
@@ -12,14 +13,14 @@ var MapStyling =
 var buttonStyle= {
   backgroundColor: 'ghostwhite',
   color: 'black',
+  fontSize: '16px',
   border: '2px solid orange',
-  padding: '10px 20px',
+  padding: '15px 34px',
   textAlign: 'center',
-  margin: '12px',
+  margin: '17px',
   textDecoration: 'none',
   borderRadius: '20px',
-  display: 'inline-block',
-  fontWeight: 'bold'
+  display: 'inline-block'
   
 }
 
@@ -35,6 +36,7 @@ function Map() {
             placeholder='Enter a location'/>
             <button style={buttonStyle}>Go!</button>
         </form>
+        <img src={mapstatic} height="533px" width="880px"/>
         </div>
       </div>
     );
