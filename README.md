@@ -7,7 +7,7 @@
 * [Description](#description)
 * [Specifications](#specifications)
 * [ComponentStructure](#componentstructure)
-* [MockUp] (#mockup)
+* [MockUp](#mockup)
 * [Instructions](#instructions)
 * [Technologies](#technologies)
 * [Contact](#contact)
