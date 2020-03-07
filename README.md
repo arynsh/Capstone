@@ -6,7 +6,10 @@
 
 * [Description](#description)
 * [Specifications](#specifications)
+* [ComponentStructure](#componentstructure)
+* [MockUp] (#mockup)
 * [Instructions](#instructions)
+* [Technologies](#technologies)
 * [Contact](#contact)
 * [License](#license)
 
@@ -25,7 +28,7 @@ This is a app that allows users to create logs of wildlife sightings (species, t
 | **User clicks create new sighting| http://localhost:8080/#/NewLog | User can fill out a form on the page |
 | **User submits form for new sighting | http://localhost:8080/#/NewLog | Form is submitted into database and page shows "thank you for creating a new submission" |
 
-### Component Structure
+### ComponentStructure
 ```
 App (state -> NewLogControl -> NewLogForm)
 └── Header          
@@ -39,7 +42,7 @@ App (state -> NewLogControl -> NewLogForm)
     |    └── NewLogForm
     └── Error 404
 ```
-
+### MockUp 
 ![MockUp](react-firebase-authentication/src/assets/images/mockup.jpg)
 
 ### Instructions
@@ -65,7 +68,7 @@ $ npm run start
 ### Known Bugs
 * No known bugs at this time.
 
-## 📋 Technologies Requirements
+## 📋 Technologies
  You may use Windows, macOS, or Linux as your development operating system, though building and running apps may be limited.
  Tools used:  
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
