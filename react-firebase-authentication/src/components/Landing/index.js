@@ -1,11 +1,11 @@
 import React from 'react';
-import backgroundspots from '../../assets/images/backgroundspots.jpg';
+import titleimage from '../../assets/images/titleimage.jpg';
 
 var LandingStyling = 
   {
     textAlign: 'center',
     fontFamily: 'monospace no. 20',
-    color: 'ghostwhite',
+    color: 'black',
     height: '270px',
     padding: '54px'
   }
@@ -41,14 +41,13 @@ function Landing() {
       <div style={LandingStyling}>
         
         <div>
-        <style global jsx>{`
+        {/* <style global jsx>{`
           body {
             background: url('${backgroundspots}');
           }
-        `}</style>
-          <h1>
-            WildLife Tracker
-          </h1>
+        `}</style> */}
+          <img src={titleimage} height="200px" width="470px"/>
+          
           <p>Spotted an eagle? A river otter? Mountain Lion? Log and track your wildlife sightings and see what others' have spotted in your area!</p>
           <button style={buttonStyle}>CREATE A NEW SIGHTING</button>
         </div>

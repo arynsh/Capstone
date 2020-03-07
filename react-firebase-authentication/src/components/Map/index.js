@@ -5,7 +5,7 @@ var MapStyling =
     textAlign: 'center',
     fontFamily: 'didot',
     height: '600px',
-    backgroundColor: "white",
+    backgroundColor: "#F39622",
     padding: '54px'
   }
 
