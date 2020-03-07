@@ -40,6 +40,8 @@ App (state -> NewLogControl -> NewLogForm)
     └── Error 404
 ```
 
+![MockUp](react-firebase-authentication/src/assets/images/mockup.jpg)
+
 ### Instructions
 
 1. Clone this repository: https://github.com/arynsh/react-wildlife-tracker
