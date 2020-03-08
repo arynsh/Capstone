@@ -1,5 +1,6 @@
 export const LANDING = '/landing';
 export const MAP = '/map';
+export const FORM = '/form';
 export const SIGN_UP = '/signup';
 export const SIGN_IN = '/signin';
 export const HOME = '/';
