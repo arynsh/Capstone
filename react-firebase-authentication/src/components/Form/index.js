@@ -2,6 +2,10 @@ import React from 'react';
 import birds from '../../assets/images/birds.jpg';
 import PropTypes from 'prop-types';
 import { v4 } from 'uuid';
+import Firebase from 'firebase';
+
+
+firebase.initializeApp(config);
 
 var paddingStyle =
 {
