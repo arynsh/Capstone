@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Firebase from 'firebase';
 import birds from '../../assets/images/birds.jpg';
+import 'firebase/database';
 // import PropTypes from 'prop-types';
 // import { v4 } from 'uuid';
 // import firebase from 'firebase/app';
-import firebase from '../Firebase/Firebase';
-import 'firebase/database';
+// import firebase from '../Firebase/Firebase';
+
 
 var paddingStyle =
 {
