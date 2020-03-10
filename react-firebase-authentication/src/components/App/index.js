@@ -19,17 +19,8 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);
-    // this.state = {
-    //   masterLogList: []
-    // };
-    // this.handleAddingNewLogToList = this.handleAddingNewLogToList.bind(this);
   }
 
-//   handleAddingNewLogToList(newLog){
-//     var newMasterLogList = this.state.masterLogList.slice();
-//     newMasterLogList.push(newLog);
-//     this.setState({masterLogList: newMasterLogList});
-//   }
 
   render(){
       return (
