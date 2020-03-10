@@ -5,6 +5,7 @@ import Navigation from '../Navigation';
 import Map from '../Map';
 import Form from '../Form';
 import LandingPage from '../Landing';
+import Logs from '../Logs';
 import SignUpPage from '../SignUp';
 import SignInPage from '../SignIn';
 // import PasswordForgetPage from '../PasswordForget';
@@ -40,10 +41,11 @@ class App extends React.Component {
             <Route exact path={ROUTES.LANDING} component={LandingPage} />
             <Route exact path={ROUTES.FORM} component={Form} />
             <Route exact path={ROUTES.MAP} component={Map} />
+            <Route exact path={ROUTES.HOME} component={HomePage} />
+            <Route exact path={ROUTES.LOGS} component={Logs} />
             <Route path={ROUTES.SIGN_UP} component={SignUpPage} />
             <Route path={ROUTES.SIGN_IN} component={SignInPage} />
             {/* <Route path={ROUTES.PASSWORD_FORGET} component={PasswordForgetPage} /> */}
-            <Route exact path={ROUTES.HOME} component={HomePage} />
             <Route path={ROUTES.ACCOUNT} component={AccountPage} />
             <Route path={ROUTES.ADMIN} component={AdminPage} />
           </div>

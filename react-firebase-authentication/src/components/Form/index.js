@@ -28,15 +28,15 @@ var formStyle= {
 var inputStyle =
 {
   height: 30,
-  width: 350,
+  width: 450,
   margin: '10px',
   padding: 8
 }
 
 var descriptionStyle =
 {
-  height: 60,
-  width: 350,
+  height: 80,
+  width: 450,
   margin: '10px',
   padding: 8 
 }
